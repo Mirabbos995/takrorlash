@@ -401,7 +401,19 @@ margin-left: 50px;
 }
 
 
-
+@media(max-width:400px){
+  .home-left{
+    width: 50%;
+  }
+  .home-center{
+    width: 50%;
+  }
+  .home-right{
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 
 
 .section3-title{
