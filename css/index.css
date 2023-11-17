@@ -9,7 +9,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 20%;
     margin: 0 auto;
 }
 
@@ -77,9 +77,6 @@ nav .container{
     border-bottom: 3px solid transparent;
 }
 
-.nav-item:hover{
-    border-bottom-color: blue;
-}
 
 
 .hero{
@@ -157,7 +154,6 @@ font-weight: 400;
 }
 
 .section1{
-  width: 80%; 
   justify-content: space-between;
   display: flex;
 }
@@ -458,7 +454,7 @@ margin-left: 50px;
 .footer-nav{
   display: flex;
   padding-top: 80px;
-  width: 80%;
+  width: 20%;
   justify-content: space-between;
 }
 
@@ -594,7 +590,7 @@ footer img{
 }
 
 .footer-org{
-  width: 100%;
+  width: 20%;
   height: 10vh;
   background: #0082F4;
   display: flex;
