@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-@media (max-width:800px){
+@media (max-width: 800px){
     .container{
         width: 90%;
     }
@@ -153,6 +153,49 @@ font-weight: 400;
     color: white;
 }
 
+@media(max-width: 900px){
+  .hero{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  .hero-left{
+  width: 90%;
+  order: 2;
+  }
+  .hero-right{
+  width: 90%;
+  order: 1;
+  }
+}
+@media(max-width: 600px){
+  .hero{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  .hero-left{
+  width: 90%;
+  order: 2;
+  }
+  .hero-right{
+  width: 90%;
+  order: 1;
+  }
+}
+@media(max-width: 400px){
+  .hero{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  .hero-left{
+  width: 90%;
+  order: 2;
+  }
+  .hero-right{
+  width: 90%;
+  order: 1;
+  }
+}
+
 .section1{
   justify-content: space-between;
   display: flex;
@@ -204,12 +247,48 @@ font-weight: 400;
     background: #0080FD;
 }
 
-@media(max-width:500px){
+@media(max-width: 900px){
   .section1{
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  .section-left{
+  width: 90%;
+  order: 1;
   }
   .section-right{
-    flex-direction: column;
+  width: 70%;
+  order: 2;
+  }
+}
+
+@media(max-width: 600px){
+  .section1{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  .section-left{
+  width: 90%;
+  order: 1;
+  }
+  .section-right{
+  width: 70%;
+  order: 2;
+  }
+}
+
+@media(max-width: 400px){
+  .section1{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  .section-left{
+  width: 90%;
+  order: 1;
+  }
+  .section-right{
+  width: 70%;
+  order: 2;
   }
 }
 
@@ -255,22 +334,54 @@ font-weight: 400;
   font-weight: 400;
 }
 
-@media(max-width:900px){
+
+@media(max-width: 900px){
+    .section2{
+    flex-wrap: wrap;
+}
   .section2-left{
-    width: 50%;
+  width: 50%;
   }
   .section2-center{
-    width: 50%;
-  }
-  .section2-right{
-    width: 50%;
-    flex-wrap: wrap;
-  }
+  width: 50%;
+}
+.section2-right{
+  padding-top: 30px;
+  width: 90%;
+}
 }
 
+@media(max-width: 600px){
+  .section2{
+  flex-wrap: wrap;
+}
+.section2-left{
+width: 50%;
+}
+.section2-center{
+width: 50%;
+}
+.section2-right{
+padding-top: 30px;
+width: 90%;
+}
+}
 
-
-
+@media(max-width: 400px){
+  .section2{
+  flex-wrap: wrap;
+}
+.section2-left{
+width: 50%;
+}
+.section2-center{
+width: 50%;
+}
+.section2-right{
+padding-top: 30px;
+width: 90%;
+}
+}
 
 
 .customer{
@@ -382,33 +493,53 @@ margin-left: 50px;
   margin-left: 50px;
 }
 
-@media(max-width:900px){
-  .home-left{
-    width: 50%;
-  }
-  .home-center{
-    width: 50%;
-  }
-  .home-right{
-    width: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+@media(max-width: 900px){
+    .home{
+  flex-wrap: wrap;
+}
+.home-left{
+width: 40%;
+}
+.home-center{
+width: 40%;
+}
+.home-right{
+padding-top: 30px;
+width: 70%;
+}
+
+}
+
+@media(max-width: 600px){
+    .home{
+flex-wrap: wrap;
+}
+.home-left{
+width: 80%;
+}
+.home-center{
+width: 80%;
+}
+.home-right{
+padding-top: 30px;
+width: 80%;
+}
 }
 
 
-@media(max-width:400px){
-  .home-left{
-    width: 50%;
-  }
-  .home-center{
-    width: 50%;
-  }
-  .home-right{
-    width: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+@media(max-width: 400px){
+  .home{
+}
+.home-left{
+width: 90%;
+}
+.home-center{
+width: 90%;
+}
+.home-right{
+width: 90%;
+}
+
 }
 
 
@@ -589,6 +720,55 @@ footer img{
   margin-bottom: 13px;
 }
 
+@media(max-width: 900px){
+    .footer-nav{
+flex-wrap: wrap;
+}
+.footer-left{
+width: 50%;
+}
+.footer-center{
+width: 50%;
+}
+.footer-right{
+padding-top: 30px;
+width: 50%;
+}
+}
+
+@media(max-width: 600px){
+  .footer-nav{
+flex-wrap: wrap;
+}
+.footer-left{
+width: 50%;
+}
+.footer-center{
+width: 30%;
+}
+.footer-right{
+padding-top: 30px;
+width: 40%;
+}
+}
+
+@media(max-width: 400px){
+  .footer-nav{
+flex-wrap: wrap;
+}
+.footer-left{
+width: 40%;
+}
+.footer-center{
+width: 30%;
+}
+.footer-right{
+padding-top: 30px;
+width: 40%;
+}
+}
+
+
 .footer-org{
   width: 80%;
   height: 10vh;
@@ -617,3 +797,42 @@ footer img{
   font-style: normal;
   font-weight: 400;
 }
+
+@media(max-width: 900px){
+.footer-org{
+  display: none;
+  width: 90%;
+}
+.linkss{
+  width: 90%;
+}
+.btnnn{
+  width: 40%;
+}
+}
+
+@media(max-width: 600px){
+  .footer-org{
+    width: 95%;
+    display: none;
+  }
+  .linkss{
+    width: 100%;
+  }
+  .btnnn{
+    width: 60;
+  }
+  }
+
+  @media(max-width: 400px){
+    .footer-org{
+      width: 95%;
+      display: none;
+    }
+    .linkss{
+      width: 100%;
+    }
+    .btnnn{
+      width: 60;
+    }
+    }
